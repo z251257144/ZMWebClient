@@ -28,7 +28,7 @@ HTTP networking framework built upon Alamofire, Doing just one request may seem 
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.0' }
   # s.swift_version = '>= 4.0'
   
-  s.source_files = 'ZMNetworking/Classes/**/*'
+  s.source_files = 'ZMWebClient/Classes/**/*'
   
   # s.resource_bundles = {
   #   'ZMWebClient' => ['ZMWebClient/Assets/*.png']
