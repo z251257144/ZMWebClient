@@ -1,0 +1,6 @@
+framework module Pods_ZMWebClient_Example {
+  umbrella header "Pods-ZMWebClient_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

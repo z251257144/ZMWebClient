@@ -1,0 +1,36 @@
+{
+  "name": "ZMWebClient",
+  "version": "0.1.0",
+  "summary": "ZMWebClient is an HTTP networking framework built upon Alamofire in Swift.",
+  "description": "HTTP networking framework built upon Alamofire, Doing just one request may seem more complicated than in Alamofire, but it proves itself in real projects.",
+  "homepage": "https://github.com/z251257144/ZMWebClient",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ZhouMin": "zmsoul@126.com"
+  },
+  "source": {
+    "git": "https://github.com/z251257144/ZMWebClient.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "ZMNetworking/Classes/**/*",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.0"
+  },
+  "dependencies": {
+    "Alamofire": [
+      "~> 4.7.0"
+    ],
+    "ReachabilitySwift": [
+      "~> 4.1.0"
+    ],
+    "ObjectMapper": [
+      "~> 3.1"
+    ]
+  }
+}

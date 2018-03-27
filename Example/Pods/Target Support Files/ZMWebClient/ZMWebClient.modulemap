@@ -1,0 +1,6 @@
+framework module ZMWebClient {
+  umbrella header "ZMWebClient-umbrella.h"
+
+  export *
+  module * { export * }
+}
